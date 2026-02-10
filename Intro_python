@@ -1,0 +1,38 @@
+Python is a high-level programming language known for its simple and readable syntax. It was created in 1991 by Guido van Rossum to make programming easy to learn and use.
+
+It allows writing programs with fewer lines of code, improving readability.
+It automatically detects variable types at runtime, eliminating the need for explicit declarations.
+It is used in web development, data analysis, automation, and many other fields.
+It supports object-oriented, functional, and procedural programming styles.
+
+Understanding Hello World Program in Python
+# This is a comment. It will not be executed.
+print("Hello, World!")
+Output:
+Hello, World!
+
+
+How does this work:
+print-hello-world
+print() is a built-in Python function that instructs the computer to display text on the screen.
+"Hello, World!" is a string, which is a sequence of text. In Python, strings are enclosed in quotes (either single ' or double ").
+
+Indentation in Python
+In Python, Indentation is used to define blocks of code. It indicates to the Python interpreter that a group of statements belongs to the same block. All statements
+with the same level of indentation are treated as part of the same code block. Indentation is created using whitespace at the beginning of each line, and the commonly 
+accepted convention is to use four spaces per indentation level.
+
+print("I have no Indentation ")
+    print("I have tab Indentation ")
+Output:
+
+ERROR!
+Traceback (most recent call last):
+  File "<main.py>", line 2
+    print("I have tab Indentation ")
+IndentationError: unexpected indent
+
+Explanation:
+
+The first print statement has no indentation, so it is correctly executed.
+The second print statement has tab indentation, but it doesn't belong to a new block of code. Python expects the indentation level to be consistent within the same block. This inconsistency causes an IndentationError.
