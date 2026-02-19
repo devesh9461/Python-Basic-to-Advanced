@@ -1,0 +1,15 @@
+Setting up python
+Get a Quick overview of what is python is and how it's work and used. Install Python and write your first few lines of code.
+=> learn about the python's popularity and benefits.
+=> Install python on your computer.
+=> Learn how to take user input and display output.
+=> Work with varaibles.
+
+
+Five files :- 
+1. Python Introduction
+2. how Downloads python in computer
+3. Input & output python
+4. Keywords in python
+5. varaibles in python 
+
